@@ -15,8 +15,8 @@ return new LogConfig(
             new StreamHandler(storage_path('logs', 'app.log')),
         ],
         'http' => [
-            // Uncomment the next line to log HTTP requests to the console.
-            //new ConsoleHandler(Level::Debug),
+            // Comment the next line to prevent logging HTTP requests to the console.
+            new ConsoleHandler(Level::Debug),
             new StreamHandler(storage_path('logs', 'http.log')),
         ],
     ]
