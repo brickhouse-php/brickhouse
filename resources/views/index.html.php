@@ -19,7 +19,7 @@
                 </span>
 
                 <div class="w-full flex flex-col sm:flex-row gap-4 items-center justify-center mt-8">
-                    <x-primary-button href="https://brickhouse.github.io">
+                    <x-primary-button href="https://brickhouse-php.github.io/getting-started/introduction/">
                         Read the docs
                     </x-primary-button>
 
@@ -36,7 +36,7 @@
             </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-1">
-                <x-next-step title="Directory Structure" link="https://laravel.com/docs/11.x#next-steps">
+                <x-next-step title="Directory Structure" link="https://brickhouse-php.github.io/getting-started/project-structure/">
                     <template #icon>
                         <x-icons.folder />
                     </template>
@@ -46,7 +46,7 @@
                     </template>
                 </x-next-step>
 
-                <x-next-step title="Configuration" link="https://laravel.com/docs/11.x#next-steps">
+                <x-next-step title="Configuration" link="https://brickhouse-php.github.io/getting-started/configuration/">
                     <template #icon>
                         <x-icons.cog />
                     </template>
@@ -56,7 +56,7 @@
                     </template>
                 </x-next-step>
 
-                <x-next-step title="Routing" link="https://laravel.com/docs/11.x#next-steps">
+                <x-next-step title="Routing" link="https://brickhouse-php.github.io/routing/routing/">
                     <template #icon>
                         <x-icons.arrows-up-down />
                     </template>
@@ -66,7 +66,7 @@
                     </template>
                 </x-next-step>
 
-                <x-next-step title="Views" link="https://laravel.com/docs/11.x#next-steps">
+                <x-next-step title="Views" link="https://brickhouse-php.github.io/routing/views/">
                     <template #icon>
                         <x-icons.paint-brush />
                     </template>
