@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use Brickhouse\Core\Application;
+
+// Register the Composer autoloader
+require __DIR__ . '/vendor/autoload.php';
+
+// Bootstrap Brickhouse and handle the command
+$status = Application::create(basePath: __DIR__)
+    ->handleCommand();
+
+exit($status);

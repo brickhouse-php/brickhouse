@@ -1,0 +1,7 @@
+/public/_build
+/node_modules
+/vendor
+.env
+.env.production
+.phpactor.json
+.DS_Store
